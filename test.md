@@ -13,7 +13,6 @@ When you click the **Knit** button a document will be generated that includes bo
 
 
 ```r
-library(knitr)
 summary(cars)
 ```
 

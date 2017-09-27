@@ -1,48 +1,48 @@
-Astronomical Low Tide,Z
-Avalanche,Z
-Blizzard,Z
-Coastal Flood,Z
-Cold/Wind Chill,Z
-Debris Flow,C
-Dense Fog,Z
-Dense Smoke,Z
-Drought,Z
-Dust Devil,C
-Dust Storm,Z
-Excessive Heat,Z
-Extreme Cold/Wind Chill,Z
-Flash Flood,C
-Flood,C
-Frost/Freeze,Z
-Funnel Cloud,C
-Freezing Fog,Z
-Hail,C
-Heat,Z
-Heavy Rain,C
-Heavy Snow,Z
-High Surf,Z
-High Wind,Z
-Hurricane (Typhoon),Z
-Ice Storm,Z
-Lake-Effect Snow,Z
-Lakeshore Flood,Z
-Lightning,C
-Marine Hail,M
-Marine High Wind,M
-Marine Strong Wind,M
-Marine Thunderstorm Wind,M
-Rip Current,Z
-Seiche,Z
-Sleet,Z
-Storm Surge/Tide,Z
-Strong Wind,Z
-Thunderstorm Wind,C
-Tornado,C
-Tropical Depression,Z
-Tropical Storm,Z
-Tsunami,Z
-Volcanic Ash,Z
-Waterspout,M
-Wildfire,Z
-Winter Storm,Z
-Winter Weather,Z
+ASTRONOMICAL LOW TIDE,Z
+AVALANCHE,Z
+BLIZZARD,Z
+COASTAL FLOOD,Z
+COLD/WIND CHILL,Z
+DEBRIS FLOW,C
+DENSE FOG,Z
+DENSE SMOKE,Z
+DROUGHT,Z
+DUST DEVIL,C
+DUST STORM,Z
+EXCESSIVE HEAT,Z
+EXTREME COLD/WIND CHILL,Z
+FLASH FLOOD,C
+FLOOD,C
+FROST/FREEZE,Z
+FUNNEL CLOUD,C
+FREEZING FOG,Z
+HAIL,C
+HEAT,Z
+HEAVY RAIN,C
+HEAVY SNOW,Z
+HIGH SURF,Z
+HIGH WIND,Z
+HURRICANE (TYPHOON),Z
+ICE STORM,Z
+LAKE-EFFECT SNOW,Z
+LAKESHORE FLOOD,Z
+LIGHTNING,C
+MARINE HAIL,M
+MARINE HIGH WIND,M
+MARINE STRONG WIND,M
+MARINE THUNDERSTORM WIND,M
+RIP CURRENT,Z
+SEICHE,Z
+SLEET,Z
+STORM SURGE/TIDE,Z
+STRONG WIND,Z
+THUNDERSTORM WIND,C
+TORNADO,C
+TROPICAL DEPRESSION,Z
+TROPICAL STORM,Z
+TSUNAMI,Z
+VOLCANIC ASH,Z
+WATERSPOUT,M
+WILDFIRE,Z
+WINTER STORM,Z
+WINTER WEATHER,Z

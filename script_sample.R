@@ -1,12 +1,17 @@
 # using sample during coding
-sam<-sample_frac(dat,0.1)
-sam<-sam %>% mutate(PROPDMGEXP = toupper(trimws(PROPDMGEXP)),
-                    CROPDMGEXP = toupper(trimws(CROPDMGEXP)),
-                    EVTYPE = toupper(trimws(EVTYPE)))
+# sam<-sam %>% mutate(PROPDMGEXP = toupper(trimws(PROPDMGEXP)),
+#                    CROPDMGEXP = toupper(trimws(CROPDMGEXP)),
+#                    EVTYPE = toupper(trimws(EVTYPE)))
 
-# possible value
-# H,h,K,k,M,m,B,b,+,-,?,0,1,2,3,4,5,6,7,8, and blank-character
-# if condition of (), you need || instead of | for multi-condition
+sam<-sample_frac(dat,0.1)
+sam$date<-strptime(sam$BGN_DATE, "%m/%d/%Y %H:%M:%S")
+sam$year<-sam$date$year+1900
+sam$date<-as.character(sam$date)  # this column will not be use again actually
+
+
+
+# possible value H,h,K,k,M,m,B,b,+,-,?,0,1,2,3,4,5,6,7,8, and blank-character if
+# condition of (), you need || instead of | for multi-condition
 expval_dont<-function(v,e) {
   if ( is.na (e) || e == ""  ) {
     res <- 0
